@@ -1,8 +1,12 @@
 {
     "project_name": "Huggingface Spaces Template",
-    "repo_owner": "nateraw",
+    "project_description": "A template app for Hugging Face Spaces",
+    "git_repo_owner": "nateraw",
+    "hf_repo_owner": "{{ cookiecutter.git_repo_owner }}",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-    "namespace": "{{ cookiecutter.repo_owner }}/{{ cookiecutter.project_slug }}",
-    "sdk": "streamlit",
-    "emoji": "🤗"
+    "git_namespace": "{{ cookiecutter.git_repo_owner }}/{{ cookiecutter.project_slug }}",
+    "hf_namespace": "{{ cookiecutter.hf_repo_owner }}/{{ cookiecutter.project_slug }}",
+    "sdk": ["streamlit", "gradio"],
+    "emoji": "🤗",
+    "private": ["true", "false"]
 }

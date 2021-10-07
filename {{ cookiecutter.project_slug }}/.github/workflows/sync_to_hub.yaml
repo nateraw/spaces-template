@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: {% raw %}${{ secrets.HF_TOKEN }}{% endraw %}
-        run: git push https://{{cookiecutter.repo_owner}}:$HF_TOKEN@huggingface.co/spaces/{{cookiecutter.namespace}} main --force
+        run: git push https://{{cookiecutter.hf_repo_owner}}:$HF_TOKEN@huggingface.co/spaces/{{cookiecutter.hf_namespace}} main --force

@@ -1,1 +1,5 @@
-streamlit==0.80.0
+{%- if cookiecutter.sdk == "streamlit" -%}
+streamlit
+{%- elif cookiecutter.sdk == "gradio" -%}
+gradio
+{% endif %}
