@@ -32,7 +32,3 @@ cookiecutter https://github.com/nateraw/spaces-template
 ## Example
 
 An example project generated from this template can be seen [here](https://github.com/nateraw/spaces-template-example).
-
-## Useful links
-
-- [Authenticating with `gh` CLI](https://cli.github.com/manual/gh_auth_login)
