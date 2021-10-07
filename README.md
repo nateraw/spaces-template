@@ -1,28 +1,29 @@
 # Hugging Face Spaces Template
 
-## Usage
+## Setup
 
-### Setup
-
-First, you'll have to have `cookiecutter` installed.
+### 1. Install `cookiecutter` and `huggingface_hub`
 
 ```
 pip install cookiecutter huggingface_hub
 ```
 
-Log in to Hugging Face's CLI. We'll add your token to Github secrets automatically with the token saved from running this command.
+### 2. Install GitHub's CLI tool, `gh`
+
+Instructions can be found [here](https://cli.github.com/manual/installation). Make sure to [authenticate](https://cli.github.com/manual/gh_auth_login) with your desired Github account.
+
+
+### 3. Log in to Hugging Face's CLI.
+
+We'll add your Hugging Face token to Github secrets automatically with the token saved from running this command.
 
 ```bash
 huggingface-cli login
 ```
 
-Additionally, you'll need `gh` CLI for the `post_gen_project.sh` hook to work.
+### 4. Make your project 🚀
 
-```
-< Instructions here pls >
-```
-
-Then, you can make a new project from this template like this:
+Now you can make a new project from this template like this:
 
 ```
 cookiecutter https://github.com/nateraw/spaces-template
