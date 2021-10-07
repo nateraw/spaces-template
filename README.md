@@ -31,4 +31,4 @@ cookiecutter https://github.com/nateraw/spaces-template
 
 ## Example
 
-An example project generated from this template can be seen [here](https://github.com/nateraw/spaces-template-example).
+An example project generated from this template can be seen [here](https://github.com/nateraw/spaces-template-gradio).
